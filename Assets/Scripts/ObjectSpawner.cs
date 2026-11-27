@@ -14,10 +14,10 @@ public class Spawner : MonoBehaviour
     public Vector3 rotationOffset = new Vector3(-90f, 0f, 0f); // fixes Z-up models
     #endregion
 
-    #region Private Member Variables
+    /*#region Private Member Variables
     float rangeX = 100f; // Range for random X position
     float rangeZ = 100f; // Range for random Z position
-    #endregion
+    #endregion */
 
     #region Singleton
     public static Spawner Instance { get; internal set; }
